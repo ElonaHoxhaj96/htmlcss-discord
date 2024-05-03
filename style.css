@@ -73,10 +73,10 @@ a{
     height: 86%;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 
-.titolo{
+.tp{
     color: white;
 
 }
@@ -88,7 +88,10 @@ h1{
     line-height: 30px;
 }
 
-/* inizio del main*/ 
+
+
+/* INIZIO DEL MAIN*/ 
+
 main{
     background-color: white;
     width: 100%;
@@ -97,30 +100,32 @@ main{
 }
 
 /* stylin first row*/ 
-.row{
+.row {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 70%;
+    width: 100%;
+    height: auto;
 
-    /*DEBUG*/
-    height: 350px;
+}
+.sezione1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    height: auto;
+
 }
 
-.square-blu{
-    /*DEBUG*/
-    background-color: blue;
-    height: 80%;
-    border-style: dashed;
+.item1{
+  float: left;
 }
 
-.square-pink{
-    /*DEBUG*/
-    background-color:pink;
-    height: 80%;
-    border-style: dashed;
+.testo{
+ width: 20%;
 }
 
 .one{
