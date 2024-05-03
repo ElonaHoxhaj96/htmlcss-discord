@@ -63,17 +63,27 @@ a{
 
 #principale{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    gap: 30px;
+    width: 70%;
     height: 86%;
 }
+h1{
+    font-size: 50px;
+}
 
-#conteiner1{
-    margin: auto;
-    background-color: rgb(219, 28, 194);
-    width: 60%;
-    height: 80%;
+.titolo{
+    color: white;
+
+}
+
+#principale> p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 /* inizio del main*/ 
