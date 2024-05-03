@@ -33,6 +33,7 @@ nav{
 a{
     color: white;
     text-decoration: none;
+
 }
 
 #logo{
@@ -172,37 +173,51 @@ footer{
     width: 100%;
 
     /*DEBUG*/
-    height: 500px;
+    height:auto;
 }
 
 .contenitore-footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 80% ;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: nowrap;
+
 }
 .pink{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
     /*DEBUG*/
     background-color: pink;
     width: 30%;
-    height: 80%;
-    border-style: dashed;
+}
+
+
+
+footer h3, h4{
+color: white;
 }
 
 #verdi{
-    width: 70%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 80% ;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+   ;
 }
 
-.square-verde{
+.square{
+
+
     /*DEBUG*/
-    background-color: green;
-    height: 100%;
-    border-style: dashed;
+  
+
+}
+
+ul{
+    line-height: 30px;
+    list-style-type: none;
 }
