@@ -157,13 +157,11 @@ h3{
 
 }
 
-/* stylin seconda sezione*/ 
+/* stylin seconda e quarta sezione*/ 
+.seconda, .quarta{
+    background-color: gray;
+}
 
-
-/* stylin third row*/ 
-
-
-/* stylin fourth row*/ 
 
 /* Pie pagina*/ 
 
