@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/* impostazioni del header*/
+header{
+   background-image:url(img/jumbo.png);
+   background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+/* impostazioni del menu del sito*/
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center ;
+    width: 70%;
+    margin: auto;
+    height: 10%;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#logo{
+    width: 20%;
+    height: 100%;
+    padding-left: 10px;
+    align-content: center;
+}
+
+.voci-menu{
+    padding: 0%;
+    display: inline-flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+
+#login{
+    border-radius: 20px;
+    width: auto;
+    padding: 3px 10px;
+    align-content: center;
+    text-align: end;
+}
+
+/* impostazioni della presentazione principale della pagina*/
+
+#principale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 86%;
+}
+
+#conteiner1{
+    margin: auto;
+    background-color: rgb(219, 28, 194);
+    width: 60%;
+    height: 80%;
+}
+
+/* inizio del main*/ 
+main{
+    background-color: white;
+    width: 100%;
+    height: auto;
+
+}
+
+/* stylin first row*/ 
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+
+    /*DEBUG*/
+    height: 350px;
+}
+
+.square-blu{
+    /*DEBUG*/
+    background-color: blue;
+    height: 80%;
+    border-style: dashed;
+}
+
+.square-pink{
+    /*DEBUG*/
+    background-color:pink;
+    height: 80%;
+    border-style: dashed;
+}
+
+.one{
+    width: 70% ; 
+}
+
+.tow{
+    width: 30% ;
+}
+
+/* stylin secound row*/ 
+
+.sezione2{
+    background-color: gray;
+}
+
+.tre{
+    width: 30% ;
+}
+
+.four{
+    width: 70% ;
+}
+
+/* stylin third row*/ 
+.sezione3{
+    background-color: white;
+
+}
+
+.cinque{
+    width: 70% ;
+}
+
+.sei{
+    width: 30% ;
+}
+
+/* stylin fourth row*/ 
+
+.sezione4{
+    background-color: gray;
+    height: 550px;
+
+}
+ .row-4{
+    margin: auto;
+    height: 80%;
+    width: 70% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+ }
+
+.sette{
+    background-color: blue;
+    border-style: dashed;
+  
+}
+
+
+/* Pie pagina*/ 
+
+footer{
+    background-color: black;
+    width: 100%;
+
+    /*DEBUG*/
+    height: 500px;
+}
+
+.contenitore-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80% ;
+}
+.pink{
+    /*DEBUG*/
+    background-color: pink;
+    width: 30%;
+    height: 80%;
+    border-style: dashed;
+}
+
+#verdi{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80% ;
+}
+
+.square-verde{
+    /*DEBUG*/
+    background-color: green;
+    height: 100%;
+    border-style: dashed;
+}
