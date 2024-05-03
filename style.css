@@ -53,11 +53,13 @@ a{
 
 #login{
     border-radius: 20px;
+    border-color: transparent;
     width: auto;
     padding: 3px 25px;
     align-content: center;
     text-align: end;
     margin: auto;
+
 
 }
 
@@ -81,10 +83,13 @@ h1{
 
 }
 
-#principale> p{
-    color: white;
+#principale{
+color: white;
+text-align: center;
+} 
+
+p{
     font-size: 20px;
-    text-align: center;
     line-height: 30px;
 }
 
@@ -99,7 +104,6 @@ main{
 
 }
 
-/* stylin prima sezione*/ 
 
 .row{
     display: flex;
@@ -114,6 +118,43 @@ main{
 
 .testo{
  width: 20%;
+
+}
+
+.quarta{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    gap: 10%;
+    flex-wrap: wrap;
+    margin: 10% auto;
+    width: 100%;
+    height: auto;
+    text-align: center
+    ;
+
+}
+
+.centrale{
+    width: 75%;
+    margin: auto;
+}
+
+h3{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+#dawload{
+    background-color: rgba(68, 45, 214, 0.642);
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 10px;
+    margin: 2% auto;
+    color: white;
+    width: 15%;
+
 }
 
 /* stylin seconda sezione*/ 
@@ -123,27 +164,6 @@ main{
 
 
 /* stylin fourth row*/ 
-
-.sezione4{
-    background-color: gray;
-    height: 550px;
-
-}
- .row-4{
-    margin: auto;
-    height: 80%;
-    width: 70% ;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end
- }
-
-.sette{
-    background-color: blue;
-    border-style: dashed;
-  
-}
-
 
 /* Pie pagina*/ 
 
