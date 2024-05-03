@@ -159,7 +159,9 @@ h3{
 
 /* stylin seconda e quarta sezione*/ 
 .seconda, .quarta{
-    background-color: gray;
+    background-color:  rgb(128, 128, 128, 0.5);
+    background-size: cover;
+    padding: 5%;
 }
 
 
