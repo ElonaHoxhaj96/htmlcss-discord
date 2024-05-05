@@ -200,6 +200,16 @@ footer{
 
 footer h3, h4{
 color: white;
+margin-bottom: 0;
+}
+
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
 }
 
 #verdi{
@@ -210,17 +220,11 @@ color: white;
     width: 70%;
 }
 
-.square{
-
-
-    /*DEBUG*/
-  
-
-}
 
 ul{
     line-height: 30px;
     list-style-type: none;
+    margin-top: 10px;
 }
 
 .registrati{
